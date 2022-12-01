@@ -2,25 +2,28 @@ body {
   font-family: Helvetica, "Times New Roman", sans-serif;
   margin: 0;
   min-height: 10vh;
-  min-width: 50vh;
+  min-width: fit-content;
+  display: flex;
+  flex-direction: column;
 }
 
 .header {
   min-width: max-content;
   padding: 16px 128px;
-  background-color: rgb(31, 15, 42);
+  background-color: rgb(29, 16, 36);
   font-size: 28px;
   font-weight: 700;
   display: flex;
   justify-content: space-around;
   align-items: center;
+  flex: 1;
 }
 
 .header ul {
   list-style: none;
   margin: 0;
   padding: 0 0 0 32px;
-  min-width: max-content;
+  min-width: inherit;
 }
 
 .header li {
@@ -28,9 +31,9 @@ body {
 }
 
 .header a {
-    color: rgb(116, 117, 126);
-    font-size: 20px;
-    text-decoration: none;
+  color: rgb(116, 117, 126);
+  font-size: 20px;
+  text-decoration: none;
 }
 
 .header-logo {
@@ -39,11 +42,54 @@ body {
 }
 
 .header-logo span {
-    color: rgb(180, 184, 234);
-    padding: 0 0 0 16px;
+  color: rgb(180, 184, 234);
+  padding: 0 0 0 16px;
 }
 
 .header-logo img {
   height: 64px;
   width: 64px;
+}
+
+.auth-header {
+  background-image: url("./img/earth-sunset.jpg");
+  background-size: cover; 
+  height: 512px;
+  width: auto;
+  padding: 16px 256px;
+  /*flex-container*/
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  /*flex-item */
+  flex: 1;
+}
+
+.auth-header p {
+  color: rgb(142, 69, 162);
+}
+
+#auth-header-upper {
+  font-size: 52px;
+  font-weight: 900;
+  margin: 40px 0 40px 36px; 
+}
+
+#auth-header-lower {
+  font-size: 36px;
+  font-weight: 700;
+  margin: 0 0 40px 36px; 
+}
+
+.auth-header button {
+  width: 140px;
+  height: 40px;
+  margin: 0 0 0 36px;
+  color: rgb(144, 198, 249);
+  font-size: 20px;
+  font-weight: 700;
+  background-color: rgb(61, 15, 130);
+  border-radius: 8px;
+  border-width: 0;
 }

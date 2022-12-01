@@ -9,12 +9,12 @@ body {
 
 .header {
   min-width: max-content;
-  padding: 16px 128px;
+  padding: 16px 256px;
   background-color: rgb(29, 16, 36);
   font-size: 28px;
   font-weight: 700;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
 }
 

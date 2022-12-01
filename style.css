@@ -93,3 +93,31 @@ body {
   border-radius: 8px;
   border-width: 0;
 }
+
+.pictures {
+  padding: 36px 0 204px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.pictures-header {
+  padding: 0 0 36px 0;
+  font-size: 32px;
+  font-weight: 700;
+  color: rgb(56, 24, 73);
+}
+
+.overview-container {
+  padding: 0 36px;
+  display: flex;
+  justify-content: center;
+  gap: 64px;
+}
+
+.overview img {
+  width: 240px;
+  height: auto;
+  border: 6px solid rgb(142, 69, 162);
+  border-radius: 8px;
+}

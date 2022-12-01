@@ -16,7 +16,6 @@ body {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  flex: 1;
 }
 
 .header ul {
@@ -62,8 +61,6 @@ body {
   flex-direction: column;
   justify-content: flex-start;
   align-items: flex-start;
-  /*flex-item */
-  flex: 1;
 }
 
 .auth-header p {
@@ -139,4 +136,41 @@ body {
   font-size: 32px;
   font-weight: 700;
   align-self: flex-end;
+}
+
+.auth-footer {
+  padding: 96px 256px;
+}
+
+.auth-footer-box {
+  background-color: rgb(23, 121, 200);
+  color: azure;
+  padding: 64px 128px;
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.auth-footer-box button {
+  width: 140px;
+  height: 40px;
+  margin: 0 0 0 36px;
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  font-weight: 700;
+  background-color: rgb(23, 121, 200);
+  border-radius: 8px;
+  border-width: 2px;
+  border-color:rgb(255, 255, 255)
+}
+
+#auth-footer-call {
+  font-size: 22px;
+  font-weight: 650;
+  padding: 0 0 2px 0;
+}
+
+#auth-footer-paragraph {
+  font-size: 14px;
+  font-weight: 450;
 }
